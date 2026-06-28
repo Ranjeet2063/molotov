@@ -2,16 +2,16 @@
   "name": "molotov",
   "version": "0.0.0",
   "private": true,
-  "description": "Molotov — marketplace Web3 de arte digital con regalias on-chain (Stellar/Soroban)",
+  "description": "Molotov \u2014 marketplace Web3 de arte digital con regalias on-chain (Stellar/Soroban)",
   "packageManager": "pnpm@10.29.3",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
-    "build": "turbo run build",
+    "build": "node init && turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "dev": "turbo run dev",
+    "dev": "node init && turbo run dev",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md,yaml,yml}\""
   },
