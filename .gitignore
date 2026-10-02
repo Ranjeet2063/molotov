@@ -15,8 +15,6 @@ target/
 **/test_snapshots/
 
 # env
-.env
-.env.local
 .env.*.local
 
 # logs
@@ -38,7 +36,6 @@ doc/BUILD_PLAN.md
 Thumbs.db
 *.swp
 .idea/
-.vscode/*
 !.vscode/extensions.json
 
 # Guia de diseno base (referencia externa, no publicar)
@@ -61,3 +58,4 @@ CLAUDE.local.md
 
 # Projection snapshots (wallet addresses + operational data, not source)
 backups/
+config.bat
